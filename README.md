@@ -61,11 +61,3 @@ This is saying - 'hey, look around for the proper method for whatever object you
 Lets say we create a model. Then we unclass it and call summary. Since everything is a list, R doesn't call the model summary anymore, but the list summary. 
 
 We can take that object and assign it our own class and then write our own summary. 
-
-class(mod) <- "kelly"
-summary.kelly <- function(x) {
-   print("Kelly is the best!")
-   }
-summary(mod)
-
-"Kelly is the best!"
