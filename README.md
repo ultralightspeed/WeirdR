@@ -1,7 +1,5 @@
 # WeirdR - Why I love R
 
-*Some notes derviced from a 2024 userR! Conference [talk](https://www.youtube.com/watch?v=KOQBfC1WPwM) by Kelly Bodwin*
-
 I like programming, but I wouldn't claim to be a computer programmer.
 
 R is freedom. Its open-source, and the philosophy of open-source is "I will give you the code, please use it responsibly."
@@ -12,9 +10,11 @@ R's advanced coding features where code can be dynamically evaluated or modified
 
 But, from the perspective a non-programmer, it will let us perform magic sorcery. 
 
-And the community is the creative magic that makes me love R.
+And the community is the creative magic that makes me love R. R isn't just a piece of software; its the enthusiam and altruism of countless scientists.
 
-Statistical analysis? Art? Presentations? Dyanmic documents? APIs? R is for the useR.
+Statistical analysis? Art? Presentations? Dyanmic documents? APIs? 
+
+R is for the useR.
 
 ## Non-standard Evaluation
 
@@ -61,3 +61,6 @@ This is saying - 'hey, look around for the proper method for whatever object you
 Lets say we create a model. Then we unclass it and call summary. Since everything is a list, R doesn't call the model summary anymore, but the list summary. 
 
 We can take that object and assign it our own class and then write our own summary. 
+
+
+*Note: this is derived from a 2024 userR! Conference [talk](https://www.youtube.com/watch?v=KOQBfC1WPwM) by Kelly Bodwin*
